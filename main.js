@@ -10,5 +10,6 @@ const { chromium } = require('playwright');
   await page.fill('#cercadorOcultGoogle', 'agenda cultural');
   await page.click('[aria-label="Cercar"]');
 
+
   //await browser.close();
 })();
